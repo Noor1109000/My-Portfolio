@@ -1,0 +1,235 @@
+/* ======Wrapper-style====== */
+.wrapper {
+  font-family: "Montserrat",sans-serif;
+}
+
+
+/* ===========Header-style========== */
+header {
+  height: 610px;
+  width: 100%;
+}
+
+  header:before {
+    background: none repeat scroll 0 0 rgba(37, 42, 48, 0.45);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .head-wrapper {
+    left: 10%;
+    padding: 4em 0;
+    position: absolute;
+    width: 80%;
+    z-index: 5;
+  }
+
+  .logo {
+    height: 3em;
+    margin: 0 auto 5.5em;
+    padding: 0 0;
+    width: 9em;
+  }
+  .logo > img {
+    width: 70px;
+  }
+
+
+  .name h1 {
+    color: white;
+    font-size: 5.6rem;
+    font-weight: 900;
+  }
+
+  .caption > h2 {
+    color: white;
+    font-size: 5.9rem;
+    font-weight: 900;
+  }
+
+  .resume {
+    margin-bottom: 4.5em;
+    margin-top: 4.5em;
+  }
+
+  .resume a {
+    background: none repeat scroll 0 0 #fed766;
+    border-radius: 25px;
+    color: #252a30;
+    font-size: 1.3rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    transition: all 1s;
+  }
+
+
+  .resume a:hover{
+    background: none repeat scroll 0 0 #fed766 !important;
+    padding-right: 30px;
+    color: #252a30;
+    padding-left: 30px;
+    transition: all 1s;
+  }
+
+  .about-my-work {
+    color: white;
+    padding-left: 8rem;
+  }
+
+  .header-bootom .fa-angle-down {
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+  }
+
+  /* =========End-Header========== */
+
+
+
+  /* =========Start-Section-Expertise========== */
+  .my-expertise {
+    border-bottom: 1px solid #efefef;
+    padding: 5em 0;
+  }
+  .head-title {
+    font-weight: 700;
+    margin: 1.5em 0 1em;
+  }
+  .app-development {
+    padding: 2em 0;
+  }
+  .app-development .yellow {
+    color: #fed766;
+    font-size: 4em;
+    margin: 0 0 0.3em;
+  }
+  .app-info {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  /* ==========My work=== */
+  .my-work {
+    padding: 5em 0;
+  }
+
+  .work-info {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .project-left, .project-right {
+    padding: 3.5em;
+  }
+  .project-title {
+    margin-bottom: 1.2em;
+  }
+  .project-title > h3 {
+    font-weight: 700;
+  }
+  ul.project-tags {
+    margin-bottom: 1.5em;
+    padding: 0;
+  }
+  ul.project-tags li {
+    background: none repeat scroll 0 0 red;
+    border-radius: 20px;
+    color: white;
+    display: inline;
+    font-weight: 700;
+    padding: 5px 20px;
+  }
+  .project-descripttion a {
+    background: none repeat scroll 0 0 white !important;
+    border: 1px solid #fed766;
+    border-radius: 25px;
+    color: #252a30;
+    font-size: 0.9em;
+    font-weight: 900;
+    margin-top: 1em;
+    padding: 0.9em 3em;
+    text-transform: uppercase;
+    transition: all 1s;
+
+  }
+
+  .project-descripttion a:hover{
+    background: #252a30 !important;
+    color: #fed766;
+    padding-right: 4em;
+    transition: all 1s;
+  }
+
+
+  /* ========About section======= */
+  .about-section {
+    background: none repeat scroll 0 0 #fed766;
+    margin: 3em 0;
+    padding: 4em 0;
+  }
+  .about-content {
+    font-size: 20px;
+    line-height: 36px;
+    padding: 0 2em 3em;
+  }
+
+  /* ===========Email====== */
+  .email-form {
+    padding: 5em 0;
+  }
+
+  .email-left-side img {
+    margin-left: 7.5em;
+    width: 140px;
+  }
+  .details.text-center {
+    padding: 1.2em 0;
+  }
+  .details a {
+    background: none repeat scroll 0 0 #ff0044 !important;
+    border: medium none !important;
+    color: white !important;
+  }
+  .social > a {
+    color: #ff0044;
+    font-size: 24px;
+  }
+
+  .social a > span.fa-github {
+    margin-right: 20px;
+  }
+
+  #name, #email, #phone {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border: medium none;
+    border-radius: 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+    margin: 0 20px 10px 0;
+    width: 40%;
+  }
+  #comment {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    width: 83%;
+    border: none;
+  }
+
+  /* ======footer===== */
+
+  .footer {
+    background: none repeat scroll 0 0 #252a30;
+    padding: 2em 0;
+  }
+  .footer p {
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+  }
